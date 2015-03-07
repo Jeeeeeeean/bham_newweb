@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>恒有钱</title>
+		<link href="../assets/css/common.css" rel="stylesheet" type="text/css" id="common">
+		<script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/application.js"></script>
+		<script src="../assets/js/common.js"></script>
+	</head>
+
+	<body>
+
+		<!--top-->
+		<div class="topcontain">
+			<ul class="top">
+				<li class="left1 degree_87">移动客户端下载</li>
+				<li class="left2 degree_87">400-6721-888</li>
+				<li class="right"><span class="degree_87">hi,欢迎来到恒有钱！</span><a class="a01 degree_87" href="#">快速注册</a>|<a class="a02 degree_87" href="#">立即登录</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--nav-->
+		<div class="navcontain">
+			<a class="logo" href="http://www.bhjr.cc/"></a>
+			<ul class="nav">
+				<li><a href="#">首页</a>
+				</li>
+				<li id="navblock">
+                	<a href="#" class="tip_orange">我要投资</a>
+                    <ul id="navblockshow" style="display:none;"></ul>
+				</li>
+				<li><a href="#">我要借款</a>
+				</li>
+				<li><a href="#">帮助中心</a>
+				</li>
+				<li><a href="#">会员账户</a>
+				</li>
+				<li href="#"><a class="last">关于我们</a>
+				</li>
+			</ul>
+            
+		</div>
+        
+        <script>
+		$(function(){
+		
+			$("#navblock").hover(
+				function(){
+					$("#navblockshow").show();
+				},
+				function(){
+					$("#navblockshow").hide();
+				});
+			});
+		</script>
+        
+		<!--getonblock-->		
+	<div class="getblockall">
+    	<div class="getonblock">
+        	<div class="getoncontain">
+            	<dl>
+                	<dt>欢迎回来</dt>
+                    <dd>
+                    	<h1>邮箱/已验证手机</h1>
+                        <input placeholder="qqq@qq.com" class="input1 orange success">
+                    </dd>
+                    <dd class="dd1">
+                    	<h1>密码</h1>
+                        <input placeholder="请输入密码" class="input1 gray fail">
+                        <h1 style="display:none;"><span class="disable">用户名或密码不正确</span></h1>
+                    </dd>
+                    <dd>
+                        <h1 class="aline">
+                        	<input type="checkbox">
+                        	<span>记住用户名</span>
+                        	<a href="#">忘记密码？</a>
+                        </h1>
+                        <a href="#" class="geton_btu">登录</a>
+                    </dd>
+                    <dd class="dd2">
+                    	<span>没有帐号？<a href="#">立即注册</a>,使用合作平台帐号登录</span>
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                        <span class="span3"></span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+		
+
+
+		<!--footer-->
+		<div class="footer">
+			<div class="footercontain">
+				<div>
+					<ul>
+						<li>
+							<a href="#">关于我们</a>
+							<a href="#">帮助中心</a>
+							<a href="#">招贤纳士</a>
+							<a href="#">炳恒财富</a>
+							<a href="#">炳恒资产</a>
+						</li>
+						<li>
+							<a href="#">关注我们</a>
+							<a href="#" class="footer_wechat"></a>
+							<a href="#" class="footer_weibo"></a>
+						</li>
+					</ul>
+					<dl>
+						<dd>客服热线 周一至周五AM9:00-PM17:30</dd>
+						<dt>400-6721-888</dt>
+						<dd><a href="mailto:service@bham.com.cn">客服邮箱 service@bham.com.cn</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="bottom">
+				<ul>
+					<li class="li01"></li>
+					<li class="li02"></li>
+					<li class="li03"></li>
+					<li class="li04"></li>
+					<li class="li05">沪ICP备14017812号-1 Copyright Reserved © 恒有钱
+						<br>上海炳恒金融信息服务有限公司 版权所有</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+
+</html>
